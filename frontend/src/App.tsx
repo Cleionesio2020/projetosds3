@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <div className="container">
-        <h1>DevSuperior</h1>
+        <h1 className="text-primary">Dashboard Dev Superior</h1>
         <div className="row" py-3>
           <div>
               <h5 className="text-secondary text-center">Taxa de sucesso</h5>

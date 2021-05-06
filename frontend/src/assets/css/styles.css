@@ -30,3 +30,10 @@ html, body {
 .text-primary {
     color: var(--color-primary) !important;
 }
+
+.tbody{
+    overflow:scroll;
+    height: 200px;
+    background-color: rgb(26, 84, 134);
+    width: 100% !important;
+}
