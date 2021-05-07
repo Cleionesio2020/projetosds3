@@ -1,5 +1,3 @@
-import React from "react";
-
 import BarChart from "components/BarChart";
 import DanutChart from "components/DonutChart";
 import DataTable from "components/data-table";
@@ -12,7 +10,7 @@ function Dashboard() {
       <Header />
       <div className="container">
         <h1 className="text-primary">Dashboard Dev Superior</h1>
-        <div className="row" py-3>
+        <div className="row py-3">
           <div>
               <h5 className="text-secondary text-center">Taxa de sucesso</h5>
             <BarChart />
