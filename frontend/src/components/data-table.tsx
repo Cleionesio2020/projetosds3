@@ -8,6 +8,7 @@ import Pagination from "./pagination";
 export default function DataTable() {
 
   const [activePage,setActivePage ]=useState(0);
+
   const [page, setPage] = useState<SalePage>({
     first: true,
     number: 0,
@@ -23,13 +24,13 @@ export default function DataTable() {
     });
   }, [activePage]);
 
-  function changepage(index:number){
+  function changePage(index:number){
     setActivePage(index)
   }
 
   return (
     <>
-    <Pagination page={page} onPageChange={changepage} />
+    <Pagination page={page} onPageChange={changePage} />
     <div className="table-responsive">
       <table className="table table-striped table-sm">
         <thead>
